@@ -1,0 +1,21 @@
+package exercicio1;
+
+public class TesteAdicionaNoFim {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Aluno a1 = new Aluno();
+		Aluno a2 = new Aluno();
+		
+		a1.setNome("João");
+		a2.setNome("José");
+		
+		Vetor lista = new Vetor();
+		
+		lista.adiciona(a1);
+		lista.adiciona(a2);
+		
+		System.out.println(lista);
+	}
+
+}
